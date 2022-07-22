@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  min-height:100vh;
+  background-image: url(https://www.cinco8.com/wp-content/uploads/2019/09/footer_background.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  }
+body:before{
+  content:"";
+  width:100%;
+  min-height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+  
+  opacity:0.6;
+  z-index:-1;
+}
+.titulo-principal{
+  font-family: 'Anton', sans-serif;
+  color: white;
+  text-align:center;
+  width:100%;
+  text-transform:uppercase;
+  font-size:150px;
+  font-weight:bold;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#menu{
+  margin:auto;
+  width:500px;
+  font-family: 'Anton', sans-serif;
+}
+ul{
+  list-style:none;
+}
+.secciones li a{
+  background-color:#EEBA30;
+  color:white;
+  text-decoration:none;
+  padding:4px 5px;
+  display:block;
+}
+.secciones li a:hover{
+  background-color:#D3A625;
+}
+.secciones > li{
+  float:left;
+}
+.secciones li ul {
+  display:none;
+  position: absolute;
+  min-width: 100px;
+ }
+.secciones li:hover > ul {
+  display:block;
+}
+
+.reseña-contenido{
+  padding:40px;
+  margin-top: -30px;
+  font-family: arial ;
+  color:white;
+  font-size:18px;
+  
+}
+.bqmt-first{
+  margin:20px;
+  border:6px solid #EEBA30;
+  border-radius:20px;
+}
+p{
+  padding:40px;
+  margin-top: -50px;
+  font-family: arial ;
+  color:white;
+  font-size:18px;
+  line-height:25px;
+}
+
+h2{
+  padding:40px;
+  margin-top: 150px;
+  font-family: 'Anton', sans-serif;
+  color:white;
+  font-size:50px;
+  text-align:left
+    ;
+}
+
+#border-divisor{
+  border:3px solid #EEBA30 ;
+  border-radius:22px;
+  width:85%;
+  margin-left: 80px;
+  margin-top:10px;
+  }
+#contacto{
+  color:white;
+  font-family: sant serif;
+  background-color:#EEBA30;
+
+}
+
+#bandera-bqmt-img {
+  width:350px;
+  float:left;
+ margin-right:15px;
+  border:3px solid #EEBA30;
+  border-radius:20px;
+}
+#geo-bqmt{
+  width:500px;
+}
+.descripcion-info{
+  width:80%;
+  height:400px;
+  overflow:auto;
+  margin-bottom:100px;
+}
+.escudo-bqmt-img{
+  border:6px solid #EEBA30;
+  border-radius:20px;
+  margin-bottom:40px;
+  width:400px;
+}
+
+.subtitulo-seccion{
+  text-align:center;
+  font-size:100px
+}
